@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.java.mapper.SecKillMapper">
+
+    <!--修改商品的秒杀状态-->
+	<update id="updateSecKillProductStatus">
+        UPDATE `web_seckill` SET STATUS='1' WHERE id IN
+        (
+        SELECT temp.* FROM
+        (SELECT id FROM web_seckill WHERE startTime &lt;=NOW() AND endTime &gt;=NOW() AND STATUS='0')
+        temp
+        )
+    </update>
+
+    <!--修改即将结束秒杀商品的状态-->
+    <update id="updateProductStarted2Finished">
+        UPDATE `web_seckill` SET STATUS='2' WHERE
+        id IN(
+        SELECT temp.* FROM (SELECT id FROM `web_seckill` WHERE STATUS='1' AND endTime &lt;NOW()) temp
+
+        )
+    </update>
+</mapper>

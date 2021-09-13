@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hb-zuul:war">
+    <output-path>$PROJECT_DIR$/hb-zuul/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hb-zuul</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hb-zuul-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hb-zuul:war exploded" />
+    </root>
+  </artifact>
+</component>

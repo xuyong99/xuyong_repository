@@ -1,0 +1,40 @@
+#配置服务器端口号
+server:
+  port: 8081
+#服务名
+spring:
+  application:
+    name: hb_admin
+  datasource: #数据库连接信息
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql:///hbuy?useSSL=false
+    username: root
+    password: root
+    hikari:
+          maximum-pool-size: 30
+          minimum-idle: 10
+  mvc:
+    static-path-pattern: /static/**
+    view:
+      prefix: /pages/
+      suffix:
+  devtools:
+    restart:
+      exclude: static/**,pages/**
+
+#整合xml形式的mybatis
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.java.pojo
+eureka:
+  client:
+    service-url:
+      defaultZone: http://127.0.0.1:10086/eureka
+
+
+
+
+
+
+
+

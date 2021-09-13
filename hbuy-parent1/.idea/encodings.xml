@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-commons" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-eureka1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-eureka2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-mongodb" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-web-banner-consumer" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-web-banner-provider1" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-web-banner-provider2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-web-hot-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-web-order-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-web-seckill-provider" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/hb-zuul" charset="UTF-8" />
+  </component>
+</project>

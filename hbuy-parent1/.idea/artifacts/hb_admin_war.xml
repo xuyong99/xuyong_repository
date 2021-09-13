@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hb-admin:war">
+    <output-path>$PROJECT_DIR$/hb-admin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hb-admin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hb-admin-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hb-admin:war exploded" />
+    </root>
+  </artifact>
+</component>

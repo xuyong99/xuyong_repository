@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/hb-admin/hb-admin.iml" filepath="$PROJECT_DIR$/hb-admin/hb-admin.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-commons/hb-commons.iml" filepath="$PROJECT_DIR$/hb-commons/hb-commons.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-eureka1/hb-eureka1.iml" filepath="$PROJECT_DIR$/hb-eureka1/hb-eureka1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-eureka2/hb-eureka2.iml" filepath="$PROJECT_DIR$/hb-eureka2/hb-eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-mongodb/hb-mongodb.iml" filepath="$PROJECT_DIR$/hb-mongodb/hb-mongodb.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-web/hb-web.iml" filepath="$PROJECT_DIR$/hb-web/hb-web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-web-banner-consumer/hb-web-banner-consumer.iml" filepath="$PROJECT_DIR$/hb-web-banner-consumer/hb-web-banner-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-web-banner-provider1/hb-web-banner-provider1.iml" filepath="$PROJECT_DIR$/hb-web-banner-provider1/hb-web-banner-provider1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-web-banner-provider2/hb-web-banner-provider2.iml" filepath="$PROJECT_DIR$/hb-web-banner-provider2/hb-web-banner-provider2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-web-hot-provider/hb-web-hot-provider.iml" filepath="$PROJECT_DIR$/hb-web-hot-provider/hb-web-hot-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-web-order-provider/hb-web-order-provider.iml" filepath="$PROJECT_DIR$/hb-web-order-provider/hb-web-order-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-web-seckill-provider/hb-web-seckill-provider.iml" filepath="$PROJECT_DIR$/hb-web-seckill-provider/hb-web-seckill-provider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hb-zuul/hb-zuul.iml" filepath="$PROJECT_DIR$/hb-zuul/hb-zuul.iml" />
+      <module fileurl="file://$PROJECT_DIR$/hbuy-parent.iml" filepath="$PROJECT_DIR$/hbuy-parent.iml" />
+    </modules>
+  </component>
+</project>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="hb-admin" />
+        <module name="hb-commons" />
+        <module name="hb-eureka1" />
+        <module name="hb-eureka2" />
+        <module name="hb-mongodb" />
+        <module name="hb-web" />
+        <module name="hb-web-banner-consumer" />
+        <module name="hb-web-banner-provider1" />
+        <module name="hb-web-banner-provider2" />
+        <module name="hb-web-hot-provider" />
+        <module name="hb-web-order-provider" />
+        <module name="hb-web-seckill-provider" />
+        <module name="hb-zuul" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="hb-admin" target="1.8" />
+      <module name="hb-commons" target="1.8" />
+      <module name="hb-eureka1" target="1.8" />
+      <module name="hb-eureka2" target="1.8" />
+      <module name="hb-mongodb" target="1.8" />
+      <module name="hb-web" target="1.8" />
+      <module name="hb-web-banner-consumer" target="1.8" />
+      <module name="hb-web-banner-provider1" target="1.8" />
+      <module name="hb-web-banner-provider2" target="1.8" />
+      <module name="hb-web-hot-provider" target="1.8" />
+      <module name="hb-web-order-provider" target="1.8" />
+      <module name="hb-web-seckill-provider" target="1.8" />
+      <module name="hb-zuul" target="1.8" />
+      <module name="hbuy-parent" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="hb-admin" options="-parameters" />
+      <module name="hb-commons" options="-parameters" />
+      <module name="hb-eureka1" options="-parameters" />
+      <module name="hb-eureka2" options="-parameters" />
+      <module name="hb-mongodb" options="-parameters" />
+      <module name="hb-web" options="-parameters" />
+      <module name="hb-web-banner-consumer" options="-parameters" />
+      <module name="hb-web-banner-provider1" options="-parameters" />
+      <module name="hb-web-banner-provider2" options="-parameters" />
+      <module name="hb-web-hot-provider" options="-parameters" />
+      <module name="hb-web-order-provider" options="-parameters" />
+      <module name="hb-web-seckill-provider" options="-parameters" />
+      <module name="hb-zuul" options="-parameters" />
+    </option>
+  </component>
+</project>

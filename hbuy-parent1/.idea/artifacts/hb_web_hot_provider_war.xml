@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hb-web-hot-provider:war">
+    <output-path>$PROJECT_DIR$/hb-web-hot-provider/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hb-web-hot-provider</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hb-web-hot-provider-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hb-web-hot-provider:war exploded" />
+    </root>
+  </artifact>
+</component>

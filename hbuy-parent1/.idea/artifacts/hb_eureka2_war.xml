@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="hb-eureka2:war">
+    <output-path>$PROJECT_DIR$/hb-eureka2/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>hb-eureka2</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="hb-eureka2-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="hb-eureka2:war exploded" />
+    </root>
+  </artifact>
+</component>
